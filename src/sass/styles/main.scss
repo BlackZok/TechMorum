@@ -1,0 +1,12 @@
+/* Global Styles */
+@import "../global/global_styles.scss"; // Универсальные стили
+
+/*  Main Styles */
+@import "../block/header.scss"; // HEADER
+/*  Main Styles */
+@import "../block/main.scss"; // MAIN
+// @import ""; // CONTENT
+@import "../block/footer.scss"; // FOOTER
+
+/* Media */
+@import "../_media/Index_media.scss"; // MEDIA121212
