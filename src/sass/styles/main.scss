@@ -1,5 +1,7 @@
 /* Global Styles */
+// @import "../global/_fonts.scss";
 @import "../global/global_styles.scss"; // Универсальные стили
+@import "../global/_divider.scss"; // Универсальные стили
 
 /*  Main Styles */
 @import "../block/header.scss"; // HEADER

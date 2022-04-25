@@ -1,0 +1,23 @@
+@mixin font-face($font-family, $url, $weight: normal, $style: normal) {
+    @font-face {
+        font-weight: $weight;
+        font-family: $font-family;
+        font-style: $style;
+        src: url('~@assets/fonts/#{$url}.woff') format('woff'),
+            url('~@assets/fonts/#{$url}.woff') format('woff2'),
+            url('~@assets/fonts/#{$url}.ttf') format('truetype');
+    }
+}
+
+@include font-face(Lato, Lato-Hairline, 100);
+@include font-face(Lato, Lato-HairlineItalic, 100, italic);
+@include font-face(Lato, Lato-Regular);
+@include font-face(Lato, Lato-Medium, 500);
+@include font-face(Lato, Lato-MediumItalic, 500, italic);
+@include font-face(Lato, Lato-Semibold, 600);
+@include font-face(Lato, Lato-Bold, bold);
+@include font-face(Lato, Lato-BoldItalic, bold, italic);
+@include font-face(Lato, Lato-Black, 800);
+@include font-face(Lato, Lato-BlackItalic, 800, italic);
+@include font-face(Lato, Lato-Heavy, 900);
+@include font-face(Lato, Lato-HeavyItalic, 900, italic);

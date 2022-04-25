@@ -1,0 +1,22 @@
+.divider-img {
+    height: 200px;
+    background-color: black;
+}
+.divider{
+    &__medmorum{
+        height: 100%;
+        background-image: url('../../img/Background_header.png');
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    &__logo{
+        height: 100%;
+        background-image: url('../../img/logo.png');
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
