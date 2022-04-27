@@ -172,3 +172,35 @@
     padding: 10px;
     list-style-type: none;
 }
+
+
+
+
+.info-about{
+
+    padding: 50px;
+    text-align: center;
+    
+    &__head{
+
+        justify-content: center;
+        text-align: center;
+        
+    }
+
+    &__box{
+
+        padding: 150px;
+        display: flex;
+    }
+
+    &__text{
+        padding: 0 50px 0 50px;
+    }
+}
+
+.info-services{
+
+    padding: 50px;
+    text-align: center;
+}
