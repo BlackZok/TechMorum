@@ -196,3 +196,20 @@
     padding: 50px;
     text-align: center;
 }
+
+.team-about{
+
+    padding: 50px 0 50px 0;
+    justify-content: center;
+    text-align: center;
+
+    &__head{
+        padding: 50px 0 50px 0;
+    }
+
+    &__separation{
+
+        padding: 5px;
+
+    }
+}
