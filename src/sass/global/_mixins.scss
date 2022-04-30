@@ -1,0 +1,38 @@
+// breakpoints
+$xxs: 360px;
+$xs: 600px;
+$sm: 960px;
+$md: 1264px;
+$lg: 1904px;
+
+$grid-brks: (
+    'xxs': $xxs,
+    'xs': $xs,
+    'sm': $sm,
+    'md': $md,
+    'lg': $lg
+);
+
+$display-brks: (
+    'xxs': 'only screen and (max-width: #{map-get($grid-brks, 'xxs')})',
+    'xs': 'only screen and (max-width: #{map-get($grid-brks, 'xs') - 1})',
+    'sm': 'only screen and (max-width: #{map-get($grid-brks, 'sm') - 1})',
+    'md': 'only screen and (max-width: #{map-get($grid-brks, 'md') - 1})',
+    'lg': 'only screen and (max-width: #{map-get($grid-brks, 'lg') - 1})'
+);
+
+// media queries
+@mixin for-size($size) {
+    @media #{map-get($display-brks, $size)} {
+        @content;
+    }
+}
+
+// отключаем hover на touch устройствах
+@mixin hover-supported {
+    @media not all and (hover: none), (min-width: 0\0) {
+        &:hover {
+            @content;
+        }
+    }
+}

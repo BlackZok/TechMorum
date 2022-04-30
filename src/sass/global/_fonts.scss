@@ -3,9 +3,9 @@
         font-weight: $weight;
         font-family: $font-family;
         font-style: $style;
-        src: url('~@assets/fonts/#{$url}.woff') format('woff'),
-            url('~@assets/fonts/#{$url}.woff') format('woff2'),
-            url('~@assets/fonts/#{$url}.ttf') format('truetype');
+        src: url('../../assets/fonts/#{$url}.woff') format('woff'),
+            url('../../assets/fonts/#{$url}.woff') format('woff2'),
+            url('../../assets/fonts/#{$url}.woff') format('truetype');
     }
 }
 

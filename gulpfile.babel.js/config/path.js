@@ -29,14 +29,14 @@ export default {
 	},
 	
 	img: {  
-		src: pathSrc + '/img/**/*.{png,jpg,jpeg,gif,svg}',
-		watch: pathSrc + '/img/**/*.{png,jpg,jpeg,gif,svg}',
+		src: pathSrc + '/assets/img/**/*.{png,jpg,jpeg,gif,svg}',
+		watch: pathSrc + '/assets/img/**/*.{png,jpg,jpeg,gif,svg}',
 		dest: pathDest + '/img/'
 	},
 
 	font: {
-		src: pathSrc + '/font/**/*.{eot,ttf,otf,otc,ttc,woff,woof2,svg}',
-		watch: pathSrc + '/font/**/*.{eot,ttf,otf,otc,ttc,woff,woof2,svg}',
+		src: pathSrc + '/assets/fonts/**/*.{eot,ttf,otf,otc,ttc,woff,woof2,svg}',
+		watch: pathSrc + '/assets/fonts/**/*.{eot,ttf,otf,otc,ttc,woff,woof2,svg}',
 		dest: pathDest + '/font/'
 	}
 }

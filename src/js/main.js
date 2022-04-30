@@ -1,7 +1,0 @@
-const $ = require('jquery'); // jQuery
-
-
-
-
-
-

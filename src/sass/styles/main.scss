@@ -1,14 +1,8 @@
 /* Global Styles */
-// @import "../global/_fonts.scss";
-@import "../global/global_styles.scss"; // Универсальные стили
-@import "../global/_divider.scss"; // Универсальные стили
+@import "../global/index.scss";
 
 /*  Main Styles */
-@import "../block/header.scss"; // HEADER
-/*  Main Styles */
-@import "../block/style.scss"; // MAIN
-// @import ""; // CONTENT
-@import "../block/footer.scss"; // FOOTER
+@import '../block/index.scss';
 
 /* Media */
-@import "../_media/Index_media.scss"; // MEDIA121212
+@import "../media/index.scss";
