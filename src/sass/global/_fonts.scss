@@ -5,7 +5,7 @@
         font-style: $style;
         src: url('../../assets/fonts/#{$url}.woff') format('woff'),
             url('../../assets/fonts/#{$url}.woff') format('woff2'),
-            url('../../assets/fonts/#{$url}.woff') format('truetype');
+            url('../../assets/fonts/#{$url}.ttf') format('truetype'),
     }
 }
 

@@ -31,12 +31,12 @@ export default {
 	img: {  
 		src: pathSrc + '/assets/img/**/*.{png,jpg,jpeg,gif,svg}',
 		watch: pathSrc + '/assets/img/**/*.{png,jpg,jpeg,gif,svg}',
-		dest: pathDest + '/img/'
+		dest: pathDest + '/assets/img/'
 	},
 
 	font: {
 		src: pathSrc + '/assets/fonts/**/*.{eot,ttf,otf,otc,ttc,woff,woof2,svg}',
 		watch: pathSrc + '/assets/fonts/**/*.{eot,ttf,otf,otc,ttc,woff,woof2,svg}',
-		dest: pathDest + '/font/'
+		dest: pathDest + '/assets/font/'
 	}
 }
