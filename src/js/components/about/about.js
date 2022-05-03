@@ -25,31 +25,14 @@ let aboutHtml = aboutModel.map((a) => {
 }).join(" ");
 let aboutFootHtml = aboutModelFoot.map((a) => {
     return `
-<<<<<<< HEAD
-
-            <div class="col-md-3">
-            </div>
-    
-            <div class="col-md-6">
-=======
-            <div class="col-md-1"></div>
+        <div class="row">
             <div class="col-md-10">
->>>>>>> a5715bffa3e406438df70c9a24a8d2acfb4320b3
-                <div class="row">
-                    <div class="col-md-2">
-
-                    </div>
-                    <div class="col-md-10">
-                        <h3><span class="text" style="color: red;">${a.span}</span>${a.title}</h3>
-                        <ul style="list-style:disc; margin: 0 30px">
-                            ${a.content.map((cont) => `<li>${cont.text}</li>`).join(" ")}
-                        </ul>
-                    </div>
-                </div>
+                <h3><span class="text" style="color: red;">${a.span}</span>${a.title}</h3>
+                <ul style="list-style:disc; margin: 0 30px">
+                    ${a.content.map((cont) => `<li>${cont.text}</li>`).join(" ")}
+                </ul>
             </div>
-            
-            <div class="col-md-3">
-            </div>
+        </div>
     `
 }).join(" ");
 
