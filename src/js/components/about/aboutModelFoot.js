@@ -1,4 +1,4 @@
-export const aboutModelfoot = [
+export const aboutModelFoot = [
     {
         id: 1,
         span: 'Команда ',
@@ -8,5 +8,5 @@ export const aboutModelfoot = [
             { text: 'Safair передает нашим клиентам наш опыт в области фильтрации чистых помещений, лабораторной фильтрации, фильтрации ОВК и фильтрации электростанций на природном газе' },
         ],
     },
-    
+
 ];
