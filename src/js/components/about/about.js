@@ -27,15 +27,13 @@ let aboutHtml = aboutModel.map((a) => {
 let aboutFootHtml = aboutModelfoot.map((a) => {
     return `
 
-            <div class="col-md-1">
+            <div class="col-md-3">
             </div>
     
-            <div class="col-md-10">
+            <div class="col-md-6">
                 <div class="row">
                     <div class="col-md-2">
-                        <span style="background-color: red;color: white; padding: 15px 22px;
-                            margin-left: 30px; border-radius: 40px; font-size: 20px;
-                            font-weight: 700;">${a.id}</span>
+
                     </div>
                     <div class="col-md-10">
                         <h3><span class="text" style="color: red;">${a.span}</span>${a.title}</h3>
@@ -46,7 +44,7 @@ let aboutFootHtml = aboutModelfoot.map((a) => {
                 </div>
             </div>
             
-            <div class="col-md-1">
+            <div class="col-md-3">
             </div>
     `
 }).join(" ");
