@@ -1,88 +1,88 @@
-.main-bottom-container{
+.main-bottom-container {
     align-items: center;
     justify-content: center;
     margin: 0;
     padding: 0;
 }
 
-.main-container{
+.main-container {
     background-color: #fff;
     height: 100%;
     justify-content: center;
 }
 
-.main-contant,
-.main-contant-down{
+.main-content,
+.main-content-down {
     display: flex;
     flex-direction: row-reverse;
     padding: 40px 0;
     justify-content: space-evenly;
 }
 
-.main-contant-down{
+.main-content-down {
     flex-direction: row;
 }
 
 .main-two-grid-container-text,
 .main-one-grid-container-text,
-.main-text-h-contant,
+.main-text-h-content,
 .main-div-text,
 .main-h-div-text,
-.main-span-text{
+.main-span-text {
     font-weight: 700;
     font-size: 28px;
     line-height: 1;
     padding-left: 25px;
 }
 
-.main-one-grid-container-text{
+.main-one-grid-container-text {
     padding: 0 0 10px 0;
 }
 
-.main-space-line{
+.main-space-line {
     border-bottom: 3px solid;
     width: 100%;
     max-width: 50px;
     height: 3px;
 }
 
-.main-text-h-contant{
+.main-text-h-content {
     font-size: 23px;
     padding: 0;
     margin-bottom: 7px;
 }
 
-.main-div-text{
+.main-div-text {
     font-weight: 100;
     font-size: 18px;
     padding: 0;
 }
 
 .main-text-flex-one,
-.main-text-flex-two{
+.main-text-flex-two {
     display: flex;
     padding-top: 40px;
     justify-content: flex-start;
 }
 
-.main-text-flex-one{
+.main-text-flex-one {
     padding-top: 20px;
 }
 
-.main-info-container{
+.main-info-container {
     padding-left: 20px;
 }
 
-.abc{
+.abc {
     border-radius: 20px;
 }
 
-.main-button-container{
+.main-button-container {
     padding-top: 50px;
 }
 
 .main-a-button,
-.main-button{
+.main-button {
     justify-content: flex-start;
     border-radius: 25px;
     padding: 16px 32px;
@@ -91,22 +91,22 @@
     text-decoration: none;
 }
 
-.main-bottom-container{
+.main-bottom-container {
     background-color: #ebebeb;
     padding: 100px 0;
 }
 
-.main-container-up-text{
+.main-container-up-text {
     margin-bottom: 105px;
 }
 
-.main-text-contant{
+.main-text-content {
     margin-left: 50px;
     margin-right: 50px;
 }
 
 .main-h-div-text,
-.main-h-card-div-text{
+.main-h-card-div-text {
     padding-bottom: 40px;
     padding-left: 0;
     font-size: 38px;
@@ -114,48 +114,48 @@
 }
 
 .main-p-div-text,
-.main-p-card-div-text{
+.main-p-card-div-text {
     line-height: 1.5;
     font-size: 22px;
     padding: 0;
 }
 
-.main-card-container{
+.main-card-container {
     display: flex;
     justify-content: space-evenly;
 }
 
-.main-card-contant{
+.main-card-content {
     background-color: #ffffff;
     border-radius: 9px;
-    border: 0px solid;
+    border: 0;
     padding: 40px 30px;
     box-sizing: border-box;
     text-align: center;
 }
 
-.main-h-card-div-text{
+.main-h-card-div-text {
     padding: 0;
     margin-bottom: 10px;
     font-size: 20px;
 }
 
-.main-p-card-div-text{
+.main-p-card-div-text {
     color: #777;
     font-size: 12px;
     margin-bottom: 30px;
 }
 
-.main-span-text{
+.main-span-text {
     margin-top: 30px;
     padding: 0;
 }
 
-.main-a-card-text{
+.main-a-card-text {
     margin-top: 30px;
 }
 
-.main-button{
+.main-button {
     background-color: #ff5136;
     border-radius: 10px;
     padding: 0 30px;
@@ -165,48 +165,36 @@
     justify-content: center;
 }
 
-.main-space-container{
+.main-space-container {
     padding: 10px;
     list-style-type: none;
 }
 
-
-
-
-.info-about{
-
+.info-about {
     padding: 50px 0 50px 0;
     text-align: center;
-    
-    &__head{
-
+    &__head {
         padding: 50px 0 50px 0;
         justify-content: center;
         text-align: center;
-        
     }
-
 }
 
-.info-services{
-
+.info-services {
     padding: 50px;
     text-align: center;
 }
 
-.team-about{
-
+.team-about {
     padding: 50px 0 50px 0;
     justify-content: center;
     text-align: center;
 
-    &__head{
+    &__head {
         padding: 50px 0 50px 0;
     }
 
-    &__separation{
-
+    &__separation {
         padding: 5px;
-
     }
 }
