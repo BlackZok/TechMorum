@@ -1,8 +1,6 @@
 import {aboutModel} from "./aboutModel";
-import {aboutModelFoot} from "./aboutModelFoot";
 
 const aboutBlock = document.querySelector('#about-block');
-const aboutFootBlock = document.querySelector('#about-foot-block');
 
 let aboutHtml = aboutModel.map((a) => {
     return `
@@ -23,21 +21,8 @@ let aboutHtml = aboutModel.map((a) => {
             </div>
     `
 }).join(" ");
-let aboutFootHtml = aboutModelFoot.map((a) => {
-    return `
-        <div class="row">
-            <div class="col-md-10">
-                <h3><span class="text" style="color: red;">${a.span}</span>${a.title}</h3>
-                <ul style="list-style:disc; margin: 0 30px">
-                    ${a.content.map((cont) => `<li>${cont.text}</li>`).join(" ")}
-                </ul>
-            </div>
-        </div>
-    `
-}).join(" ");
 
 aboutBlock.insertAdjacentHTML('beforeend', aboutHtml);
-aboutFootBlock.insertAdjacentHTML('beforeend', aboutFootHtml);
 
 
 
