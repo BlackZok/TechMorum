@@ -37,20 +37,23 @@ header {
   }
 }
 
-.header{
-  &__footer{
+.header {
+  &__footer {
     display: flex;
     align-items: center;
     position: absolute;
     bottom: 50px;
   }
-  &__button{
-    &:first-child{
+
+  &__button {
+    &:first-child {
       margin-left: 0;
     }
-    &:last-child{
+
+    &:last-child {
       margin-right: 0;
     }
+
     border: 0;
     outline: 0;
     background: 0;
@@ -60,9 +63,10 @@ header {
     font-weight: 500;
     transition: .3s ease-in-out;
     color: #fff;
-      &:hover{
-        background-color: rgba(0, 0, 0, .2);
-        border-radius: 3px 10px 3px 10px;
-      }
+
+    &:hover {
+      background-color: rgba(0, 0, 0, .2);
+      border-radius: 3px 10px 3px 10px;
+    }
   }
 }
