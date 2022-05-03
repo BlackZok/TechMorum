@@ -1,5 +1,5 @@
 import {aboutModel} from "./aboutModel";
-import {aboutModelfoot} from "./aboutModelFoot";
+import {aboutModelFoot} from "./aboutModelFoot";
 
 const aboutBlock = document.querySelector('#about-block');
 const aboutFootBlock = document.querySelector('#about-foot-block');
@@ -23,14 +23,18 @@ let aboutHtml = aboutModel.map((a) => {
             </div>
     `
 }).join(" ");
-
-let aboutFootHtml = aboutModelfoot.map((a) => {
+let aboutFootHtml = aboutModelFoot.map((a) => {
     return `
+<<<<<<< HEAD
 
             <div class="col-md-3">
             </div>
     
             <div class="col-md-6">
+=======
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+>>>>>>> a5715bffa3e406438df70c9a24a8d2acfb4320b3
                 <div class="row">
                     <div class="col-md-2">
 

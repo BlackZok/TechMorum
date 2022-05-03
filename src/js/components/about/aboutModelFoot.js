@@ -1,4 +1,4 @@
-export const aboutModelfoot = [
+export const aboutModelFoot = [
     {
         span: 'Фильтра ',
         title: 'и расходники',
@@ -7,5 +7,5 @@ export const aboutModelfoot = [
             { text: 'Фильтра hepa и ulpa.' },
             { text: 'Специализированные производства на основе проектов.' }, ],
     },
-    
+
 ];
