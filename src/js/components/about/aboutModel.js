@@ -1,5 +1,4 @@
-export const aboutModel = [
-    {
+export const aboutModel = [{
         id: 1,
         span: 'Проводим исследование ',
         title: 'продукта и аудитории',
