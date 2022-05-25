@@ -1,11 +1,11 @@
-import {generalInfoProduct} from "./infoProductModel";
+import {generalInfoBox} from "./infoBoxModel";
 
-const infoProduct = document.querySelector('#infoProduct');
+const infoBox = document.querySelector('#infoBox');
 
-let infoProductHtml = generalInfoProduct.map((a) => {
+let infoBoxHtml = generalInfoBox.map((a) => {
     return `
     <div class="col-md-4">
-        <div class = "qwe">
+        <div class = "xgv">
 
             <p style="font-size: 30px;font-weight: 500;color: white;"> ${a.title} </p>
             ${a.content.map((cont) => `<p style="color:white; text-decoration: none;">${cont.text}</p>`).join(" ")}
@@ -16,6 +16,6 @@ let infoProductHtml = generalInfoProduct.map((a) => {
     `
 }).join(" ");
 
-infoProduct.insertAdjacentHTML('beforeend', infoProductHtml);
+infoBox.insertAdjacentHTML('beforeend', infoBoxHtml);
 
 
