@@ -1,9 +1,9 @@
-import {aboutModel} from "./aboutModel";
+import { aboutModel } from "./aboutModel";
 
 const aboutBlock = document.querySelector('#about-block');
 
 let aboutHtml = aboutModel.map((a) => {
-    return `
+            return `
             <div class="col-md-6">
                 <div class="row">
                     <div class="col-md-2">
@@ -23,7 +23,3 @@ let aboutHtml = aboutModel.map((a) => {
 }).join(" ");
 
 aboutBlock.insertAdjacentHTML('beforeend', aboutHtml);
-
-
-
-
