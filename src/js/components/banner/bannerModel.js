@@ -1,5 +1,5 @@
 export const generalBanner = [{
-        img: "../../assets/img/TechMorum.png",
+        img: "../../assets/img/Maslo_1.png",
         title: 'Моторные масла, <br> расходные материалы',
         text: 'Подробнее',
 
@@ -7,7 +7,7 @@ export const generalBanner = [{
 
     },
     {
-        img: "../../assets/img/TechMorum.png",
+        img: "../../assets/img/Maslo_1.png",
         title: 'Фильтры',
         text: 'Подробнее',
 
@@ -15,7 +15,7 @@ export const generalBanner = [{
 
     },
     {
-        img: "../../assets/img/TechMorum.png",
+        img: "../../assets/img/Motor_2.png",
         title: 'Электрика, <br> электроника, <br> двигатели <br> и насосы',
         text: 'Подробнее',
 

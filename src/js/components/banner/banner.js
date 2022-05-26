@@ -11,7 +11,7 @@ let bannerHtml = generalBanner.map((a) => {
             padding: 25px 0 25px; color: black; font-size: 24px; font-weight: 700;"> ${a.title} </p>
 
                 <img src="${a.img}" alt="" style=" display: flex; justify-content: center; text-align: center;
-                padding: 25px 0 25px;">
+                padding: 25px 0 25px; height: 400px;">
             
                 <div class="qwe" style=" display: flex; justify-content: center; text-align: center;">
                 
