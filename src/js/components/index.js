@@ -1,7 +1,7 @@
-import './about/about'
 import './banner/banner'
 import './infoCont/infoCont'
 import './infoProduct/infoProduct'
 import './infoBox/infoBox'
 import './contacts/contacts'
 import './product/product'  
+import './about/about'
