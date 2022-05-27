@@ -5,7 +5,14 @@ const headerfoot = document.querySelector('#headerfoot');
 let headerfootHtml = generalHeaderfoot.map((a) => {
     return `
     <div class="header__footer">
-    <img src="${a.img}" alt="" style=" height: 600px;">
+    <div class="container">
+        <div class="row">
+        <div class="col-md-4">
+        <p> ${a.text} </p>
+        <div>
+        <div>        
+        <div>
+    <div>
     `
 }).join(" ");
 

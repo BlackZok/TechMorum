@@ -1,7 +1,12 @@
 export const generalHeaderfoot = [
     {
-        img: "../../assets/img/Examle_1.png",
 
+
+        text: 'По идее этого не должно быть видно,что за мистика',
+
+        
     },
+
+    
 
 ]
