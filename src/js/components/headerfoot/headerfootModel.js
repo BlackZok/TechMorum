@@ -1,12 +1,19 @@
 export const generalHeaderfoot = [
     {
 
+        text: "OKEY LETS GO <br> OKEY LETS GO ",
+    
+    },
+    {
 
-        text: 'По идее этого не должно быть видно,что за мистика',
+        text: "OKEY LETS GO <br> OKEY LETS GO",
+    
+    },
+    {
 
-        
+        text: "OKEY LETS GO <br> OKEY LETS GO",
+    
     },
 
-    
 
 ]
