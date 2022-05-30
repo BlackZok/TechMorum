@@ -1,25 +1,19 @@
 export const generalBanner = [{
-        img: "../../assets/img/Maslo_1.png",
+        img: "../../assets/img/OLEJ-CASTROL-FORD-MAGNATEC-PROFESSIONAL-A5-5W30-6L.png",
         title: 'Моторные масла, <br> расходные материалы',
         text: 'Подробнее',
 
-
-
     },
     {
-        img: "../../assets/img/Maslo_1.png",
+        img: "../../assets/img/vhvh.png",
         title: 'Фильтры',
         text: 'Подробнее',
-
-
 
     },
     {
         img: "../../assets/img/Motor_2.png",
         title: 'Электрика, <br> электроника, <br> двигатели <br> и насосы',
         text: 'Подробнее',
-
-
 
     },
 
