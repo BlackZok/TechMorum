@@ -11,7 +11,7 @@ export const generalBanner = [{
 
     },
     {
-        img: "../../assets/img/Motor_2.png",
+        img: "../../assets/img/Frame_28.png",
         title: 'Электрика, <br> электроника, <br> двигатели <br> и насосы',
         text: 'Подробнее',
 
