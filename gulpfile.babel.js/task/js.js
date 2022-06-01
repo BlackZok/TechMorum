@@ -10,8 +10,6 @@ import notify from "gulp-notify";
 import babel from "gulp-babel";
 import webpackStream from "webpack-stream";
 
-
-
 // Обработка JavaScript
 export default () => {
   return gulp.src(path.js.src, { sourcemaps: app.isDev })

@@ -58,3 +58,21 @@ body {
     margin: 0;
     overflow-x: hidden;
 }
+
+.button{
+    font-weight: 500;
+    padding: 0 10px;
+    outline: 0;
+    border: 0;
+    color: #1e1e1e;
+    background-color: rgb(63, 163, 63);
+    border-radius: 10px;
+
+    &__orange{
+        background-color: orange;
+    }
+}
+.image{
+    width: 400px;
+    height: 400px;
+}
