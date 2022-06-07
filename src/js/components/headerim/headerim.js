@@ -6,7 +6,7 @@ let headerimHtml = generalHeaderim.map((a) => {
     return `
         <div class = "bvn">
 
-        <img src="${a.img}" width="1000">
+        <img src="${a.img}" width="1100">
         </div>
     `
 }).join(" ");
