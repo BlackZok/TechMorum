@@ -1,17 +1,17 @@
 export const generalHeaderfoot = [
     {
 
-        text: "OKEY LETS GO <br> OKEY LETS GO ",
+        text: "оригинальное <br> качество ",
     
     },
     {
 
-        text: "OKEY LETS GO <br> OKEY LETS GO",
+        text: "уникальные предложения <br> от производителей",
     
     },
     {
 
-        text: "OKEY LETS GO <br> OKEY LETS GO",
+        text: "надежность <br> поставки",
     
     },
 
