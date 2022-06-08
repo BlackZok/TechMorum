@@ -22,4 +22,3 @@ let aboutHtml = aboutModel.map((a) => {
     `
 }).join(" ");
 
-aboutBlock.insertAdjacentHTML('beforeend', aboutHtml);
