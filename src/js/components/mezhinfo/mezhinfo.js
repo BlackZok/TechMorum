@@ -1,29 +1,42 @@
 import { generalMezhinfo } from "./mezhinfoModel";
 
-const mezhinfo = document.querySelector('#mezhinfo');
+const mezhinfoTop = document.querySelector('#mezhinfoTop');
+const mezhinfoMid = document.querySelector('#mezhinfoMid');
+const mezhinfoBot = document.querySelector('#mezhinfoBot');
 
-let mezhinfoHtml = generalMezhinfo.map((a) => {
+let mezinfoHtmlTop = generalMezhinfo.map((a) => {
     return `
-    <div class="col-md-4">
-        <div class = "qwe" style="height: 100%; width: 100%; align-items: center;">
-
-            <p style=" display: flex; justify-content: center; text-align: center;
-            padding: 25px 0 25px; color: white; font-size: 24px; font-weight: 700;"> ${a.title} </p>
-
-                <img src="${a.img}" alt="" style=" display: flex; text-align: center;
-                padding: 25px 0 25px; height: 400px;">
-            
-                <div class="qwe" style=" display: flex; justify-content: center; text-align: center;">
-                
-                    <p style=" display: flex; justify-content: center; text-align: center;
-                    color: ; font-size: 16px; font-weight: 600; padding: 0 10px 0 10px;
-                    border-color: orange; border-radius: 5px;"> ${a.text} </p>
-                
-                </div>
+    <div class="col-md-4 mezinfo__card">
+        <div class="mezinfo__img">
+            <img class="image" src="${a.imgTop}" alt="photo" />
         </div>
+        <p class="mezinfo__text"  style = "color: white; display: flex; text-align: center; justify-content: center; font-size: 16px; font-weight: 500; padding: 25px;">${a.textTop}</p>
     </div>
-
     `
 }).join(" ");
 
-mezhinfo.insertAdjacentHTML('beforeend', mezhinfoHtml);
+let mezinfoHtmlMid = generalMezhinfo.map((a) => {
+    return `
+    <div class="col-md-4 mezinfo__card" >
+        <div class="mezinfo__img">
+            <img class="image" src="${a.imgMid}" alt="photo" />
+        </div>
+        <p class="mezinfo__text" style = "color: white; display: flex; text-align: center; justify-content: center; font-size: 16px; font-weight: 500; padding: 25px;">${a.textMid}</p>
+    </div>
+    `
+}).join(" ");
+
+let mezinfoHtmlBot = generalMezhinfo.map((a) => {
+    return `
+    <div class="col-md-4 mezinfo__card">
+        <div class="mezinfo__img">
+            <img class="image" src="${a.imgBot}" alt="photo" />
+        </div>
+        <p class="mezinfo__text" style = "color: white; display: flex; text-align: center; justify-content: center; font-size: 16px; font-weight: 500; padding: 25px;">${a.textBot}</p>
+    </div>
+    `
+}).join(" ");
+
+mezhinfoTop.insertAdjacentHTML('beforeend', mezinfoHtmlTop);
+mezhinfoMid.insertAdjacentHTML('beforeend', mezinfoHtmlMid);
+mezhinfoBot.insertAdjacentHTML('beforeend', mezinfoHtmlBot);
