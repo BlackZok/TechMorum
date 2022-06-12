@@ -1,6 +1,6 @@
 export const generalMezhinfo = [{
-    imgTop: "../../assets/img/hepa-filtre-aluminyum-kasa-3-16.png",
-    imgMid: "../../assets/img/Shell_Helix_Ultra_Diesel_5W40.png",
+    imgTop: "../../assets/img/Frame_50.png",
+    imgMid: "../../assets/img/Frame_53.png",
     imgBot: "../../assets/img/Frame_47.png",
 
     textTop: 'Алюминиевые корпусы <br> фильтров Hepa',
@@ -12,8 +12,8 @@ export const generalMezhinfo = [{
 
 {
 
-    imgTop: "../../assets/img/torba-filtreler-3-10.png",
-    imgMid: "../../assets/img/Mobil_Super_3000_X1_Diesel_5W40.png",
+    imgTop: "../../assets/img/Frame_56.png",
+    imgMid: "../../assets/img/Frame_54.png",
     imgBot: "../../assets/img/Frame_48.png",
 
     textTop: 'Алюминиевые корпусы <br> фильтров Hepa',
@@ -24,8 +24,8 @@ export const generalMezhinfo = [{
 
 {
 
-    imgTop: "../../assets/img/hepa-filtre-3-6.png",
-    imgMid: "../../assets/img/Castrol_EDGE_5W40.png",
+    imgTop: "../../assets/img/Frame_57.png",
+    imgMid: "../../assets/img/Frame_55.png",
     imgBot: "../../assets/img/Frame_49.png",
 
     textTop: 'Алюминиевые корпусы <br> фильтров Hepa',
