@@ -22,8 +22,8 @@ $display-brks: (
 );
 
 // media queries
-@mixin for-size($size) {
-    @media #{map-get($display-brks, $size)} {
+@mixin for-size($size){
+    @media #{map-get($display-brks, $size)}{
         @content;
     }
 }
