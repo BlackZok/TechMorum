@@ -4,7 +4,7 @@ const headerim = document.querySelector('#headerim');
 
 let headerimHtml = generalHeaderim.map((a) => {
     return `
-        <div class = "bvn">
+        <div class = "hedrim">
 
         <img src="${a.img}" width="1100">
         </div>
