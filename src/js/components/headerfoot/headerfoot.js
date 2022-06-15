@@ -1,12 +1,13 @@
 import {generalHeaderfoot} from "./headerfootModel";
 
-const headerfoot = document.querySelector('#headerfoot');
+const header__footer = document.querySelector('#header__footer');
 
-let headerfootHtml = generalHeaderfoot.map((a) => {
+let headerfooterHtml = generalHeaderfoot.map((a) => {
     return `
-
-               <p style="text-align: left; display: inline-block; padding: 0 70px 0px 0px; color: white; margin: 0px 20px 0px 80px"> ${a.text} </p>
+        <div class="col-md-3">
+             <p class="text" style="margin-bottom: 20px"> ${a.text} </p>
+        </div>
     `
 }).join(" ");
 
-headerfoot.insertAdjacentHTML('beforeend', headerfootHtml);
+header__footer.insertAdjacentHTML('beforeend', headerfooterHtml);

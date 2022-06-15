@@ -20,14 +20,10 @@
 }
 
 .banner{
-
-
-
     &__card{
 
         @include for-size('md'){
             color: aqua;
-    
         }
         display: flex;
         align-items: center;
