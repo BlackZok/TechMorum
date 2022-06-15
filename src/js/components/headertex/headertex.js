@@ -1,6 +1,6 @@
 import {generalHeaderText} from "./headertexModel";
 
-const headertext = document.querySelector('#headertext');
+const headertext = document.querySelector('#header__text');
 
 let headertextHtml = generalHeaderText.map((a) => {
   return `
