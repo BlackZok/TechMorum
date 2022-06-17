@@ -5,7 +5,7 @@ const infoCont = document.querySelector('#infoCont');
 let infoContHtml = generalInfoCont.map((a) => {
     return `
     <div class="col-md-4">
-        <div class = "vbn">
+        <div class = "infocot">
 
             <p style="font-size: 50px; font-weight: 1000; color: white; line-height: 0.9em; padding-bottom: 50px;"> ${a.title} </p>
             ${a.content.map((cont) => `<p style="color:white; font-size: 16px; font-weight: 500; width: 400px; text-decoration: none;">${cont.text}</p>`).join(" ")}
