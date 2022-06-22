@@ -32,7 +32,7 @@ let mezinfoHtmlBot = generalMezhinfo.map((a) => {
         <div class="mezinfo__img">
             <img class="image" src="${a.imgBot}" alt="photo" />
         </div>
-        <p class="mezinfo__text" style = "color: white; display: flex; text-align: center; justify-content: center; font-size: 16px; font-weight: 500; padding: 25px;">${a.textBot}</p>
+        <p class="mezinfo__text" style="color: white; display: flex; text-align: center; justify-content: center; font-size: 16px; font-weight: 500; padding: 25px;">${a.textBot}</p>
     </div>
     `
 }).join(" ");
