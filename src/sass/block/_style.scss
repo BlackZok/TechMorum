@@ -1,8 +1,9 @@
 .banner {
     &__wrapper {
-        padding-top: 30px;
+        background: #1e1e1e
     }
 }
+
 .partners-img {
     padding: 30px 0;
     text-align: center;
@@ -12,6 +13,20 @@
     background-image: url(../../assets/img/Frame_44.png); background-repeat: no-repeat; height: 750px; padding: 10px;
 }
 
+.сooperation {
+    background: #1e1e1e;
+}
+.cooperation__text {
+    color:white;
+    display:flex;
+    text-align:center;
+    justify-content:center;
+    padding: 0 0 50px;
+    font-size: 25px;
+}
+.mezinfo__card {
+    margin-bottom: 40px;
+}
 
 .info-manifactures{
     padding: 50px;
