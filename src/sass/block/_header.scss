@@ -59,17 +59,34 @@ header{
     }
   }
 
+  &__img{
+    position: absolute;
+    right:0;
+    left: 1050px;
+    top: 50%;
+    transform: translateY(-50%);
+    @include for-size(md) {
+      left: 778px;
+    }
+    @include for-size(sm) {
+      left: 543px;
+    }
+    @include for-size(xs) {
+      display: none;
+    }
+  }
+
   &__footer {
     &-wrapper {
       margin-bottom: 20px;
     }
-    @include for-size(xxs) {
+    @include for-size(xs) {
       text-align: center;
     }
   }
 
   &__text {
-    @include for-size(xxs) {
+    @include for-size(xs) {
       text-align: center;
     }
   }
