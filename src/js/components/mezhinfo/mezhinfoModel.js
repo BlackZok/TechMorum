@@ -26,7 +26,7 @@ export const generalMezhinfo = [{
 
     imgTop: "../../assets/img/Frame_57.png",
     imgMid: "../../assets/img/Frame_55.png",
-    imgBot: "../../assets/img/Frame_49.png",
+    imgBot: "../../assets/img/Gemu.png",
 
     textTop: 'Корпуса из МДФ <br> с фильтрами Нера',
     textMid: 'Синтетическое <br> моторное масло <br> Castrol EDGE 5W-40 <br> A3/B4',
