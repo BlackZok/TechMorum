@@ -11,7 +11,7 @@ let bannerHtmlLeft = generalBannerLeft.map((a) => {
         <div class="banner__img">
             <img class="image" src="${a.img}" alt="photo" />
         </div>
-        <button class="button button__orange">${a.text}</button>
+        <button data-custom-open="modal" class="button button__orange">${a.text}</button>
     </div>
     `
 }).join(" ");

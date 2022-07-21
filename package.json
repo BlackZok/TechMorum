@@ -69,6 +69,7 @@
     "gulp-autoprefixer": "^8.0.0",
     "jquery": "^3.6.0",
     "jquery-ajax": "^2.1.4",
+    "micromodal": "^0.4.10",
     "run": "^1.4.0"
   }
 }
