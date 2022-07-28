@@ -24,7 +24,7 @@ export const secondHeaderText = [
 export const HeaderImg = [
   {
   
-    img: "../../assets/img/Frame_28.png",
+    img: "../../assets/img/Background_orig.png",
     
    
   },
