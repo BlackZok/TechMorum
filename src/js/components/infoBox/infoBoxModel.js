@@ -8,8 +8,6 @@ export const generalInfoBox = [
             
         ],
 
-        text: 'Я люблю когда волосатые мужики обмазыв'
-
     },
 
 ]
