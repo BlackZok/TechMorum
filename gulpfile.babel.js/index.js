@@ -28,7 +28,7 @@ const watcher = () => {
     gulp.watch(path.scss.watch, scss).on('all', browserSync.reload);
     gulp.watch(path.js.watch, js).on('all', browserSync.reload);
     // gulp.watch(path.img.watch, img).on('all', browserSync.reload);
-    gulp.watch(path.font.watch, font).on('all', browserSync.reload);
+    // gulp.watch(path.font.watch, font).on('all', browserSync.reload);
 };
 
 const build = gulp.series(clear, gulp.parallel(html, scss, js, img, font));
