@@ -2,9 +2,9 @@ export const generalFooter = [
     {
         title: 'Основное',
         content: [
-            { text: 'Главная страница' },
-            { text: 'Наша продукция' },
-            { text: 'О нас' },
+            { text: 'Главная страница', id:0},
+            { text: 'Наша продукция', id:1 },
+            { text: 'О нас', id:2 },
         ],
     },
     {
