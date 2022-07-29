@@ -1,12 +1,10 @@
 export const generalInfoBox = [
     {
 
-        title: 'Электрика, электроника, двигатели <br> и насосы',
-
-        content: [
-            { text: 'Даже в это время мировых санкций, мы продолжаем поставлять ПРОДУКЦИЮ следующих производителей: Endress Hauser, ProMinent, Danfoss, WIKA, Errecom, Edwards, John Guest, Carrier, Finder, MUT MECCANICA TOVO, ADCA, GEMU, Lowara, Wilo, Burkert, Parker, Empon, Legrand' },
+        text1: 'TechMorum - молодая динамично развивающаяся компания, зарекомендовавшая себя на рынке',
+        text2: 'Среди наших клиентов крупнейшие НИИ и производства',
+        text3: 'Команда наших специалистов подберет товар под Ваш запрос или поможет составить техническое задание',
             
-        ],
 
     },
 

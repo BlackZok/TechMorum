@@ -2,8 +2,8 @@ export const generalHeaderText = [
   {
     title: [
       {text: 'Насосы'},
-      {text: 'Двигатели'},
-      {text: 'Электрика'}
+      {text: 'Электрика'},
+      {text: 'Двигатели'}
     ],
     text: 'Заказать',
   },
@@ -11,8 +11,8 @@ export const generalHeaderText = [
 
 export const secondHeaderText = [
   {
-    text1: 'Теплообменники',
-    text2: 'Холодильное оборудование',
-    text3: 'HEPA фильтры'
+    text1: 'HEPA фильтры',
+    text2: 'Теплообменники',
+    text3: 'Холодильное оборудование'
   },
 ]

@@ -3,8 +3,8 @@ export const generalFooter = [
         title: 'Основное',
         content: [
             { text: 'Главная страница' },
-            { text: 'Заказчикам' },
-            { text: 'Партнёрам' },
+            { text: 'Наша продукция' },
+            { text: 'О нас' },
         ],
     },
     {

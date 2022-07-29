@@ -16,7 +16,6 @@ let bannerHtmlLeft = generalBannerLeft.map((a) => {
         <div class="banner__img">
             <img class="image" src="${a.img}" alt="photo" />
         </div>
-        <button data-custom-open="oil" class="button button__orange">${a.text}</button>
     </div>
     `
 }).join(" ");
@@ -28,7 +27,6 @@ let bannerHtmlMid = generalBannerMid.map((a) => {
         <div class="banner__img">
             <img class="image" src="${a.img}" alt="photo" />
         </div>
-        <button data-custom-open="filters"class="button button__orange">${a.text}</button>
     </div>
     `
 }).join(" ");
@@ -40,7 +38,6 @@ let bannerHtmlMidRight = generalBannerRight.map((a) => {
         <div class="banner__img">
             <img class="image" src="${a.img}" alt="photo" />
         </div>
-        <button data-custom-open="electronic" class="button button__orange">${a.text}</button>
     </div>
     `
 }).join(" ");
@@ -56,7 +53,6 @@ let bannerHtmlBotLeft = generalBannerBotLeft.map((a) => {
         <div class="banner__img">
             <img class="image" src="${a.img}" alt="photo" />
         </div>
-        <button data-custom-open="oil" class="button button__orange">${a.text}</button>
     </div>
     `
 }).join(" ");
@@ -68,7 +64,6 @@ let bannerHtmlBotMid = generalBannerBotMid.map((a) => {
         <div class="banner__img">
             <img class="image" src="${a.img}" alt="photo" />
         </div>
-        <button data-custom-open="filters"class="button button__orange">${a.text}</button>
     </div>
     `
 }).join(" ");
@@ -80,7 +75,6 @@ let bannerHtmlMidBotRight = generalBannerBotRight.map((a) => {
         <div class="banner__img">
             <img class="image" src="${a.img}" alt="photo" />
         </div>
-        <button data-custom-open="electronic" class="button button__orange">${a.text}</button>
     </div>
     `
 }).join(" ");
