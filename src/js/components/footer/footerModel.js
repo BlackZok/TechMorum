@@ -20,7 +20,7 @@ export const generalFooter = [
         content: [
             { text: 'ул. Калинина, 6Б, Королёв, Моск...' },
             { text: '+7 (915) 203-81-91' },
-            { text: 'info@techmorum.ru' },
+            { text: 'techmorum@mail.ru' },
         ],
     },
 

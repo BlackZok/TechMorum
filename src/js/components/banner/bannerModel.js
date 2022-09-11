@@ -1,5 +1,5 @@
 export const generalBannerLeft = [{
-        img: "../../assets/img/OLEJ-CASTROL-FORD-MAGNATEC-PROFESSIONAL-A5-5W30-6L.png",
+        img: "../../assets/img/l.png",
         title: 'Насосы',
 
     },
@@ -8,14 +8,14 @@ export const generalBannerLeft = [{
 
 export const generalBannerMid = [{
 
-    img: "../../assets/img/vhvh.png",
+    img: "../../assets/img/c.png",
     title: 'Электрика',
 
 },
 ]
 
 export const generalBannerRight = [{
-    img: "../../assets/img/Frame_28.png",
+    img: "../../assets/img/y.png",
     title: 'Двигатели',
 
 },
@@ -25,7 +25,7 @@ export const generalBannerRight = [{
 
 
 export const generalBannerBotLeft = [{
-    img: "../../assets/img/OLEJ-CASTROL-FORD-MAGNATEC-PROFESSIONAL-A5-5W30-6L.png",
+    img: "../../assets/img/t.png",
     title: 'HEPA фильтры',
 
 },
@@ -34,15 +34,15 @@ export const generalBannerBotLeft = [{
 
 export const generalBannerBotMid = [{
 
-img: "../../assets/img/vhvh.png",
+img: "../../assets/img/a.png",
 title: 'Теплообменники',
 
 },
 ]
 
 export const generalBannerBotRight = [{
-img: "../../assets/img/Frame_28.png",
-title: 'Холодильное оболрудование',
+img: "../../assets/img/j.png",
+title: 'Холодильное оборудование',
 
 },
 
