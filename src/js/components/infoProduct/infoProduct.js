@@ -4,17 +4,21 @@ const infoProduct = document.querySelector('#infoProduct');
 
 let infoProductHtml = generalInfoProduct.map((a) => {
     return `
-    <div class="col-md-5">
-        <div class = "infoprod">
+    <div class="col-md-7">
+        <div class = "infoprod" style = "display: flex; align-items: flex-end; height: 250px; ">
 
-            <p style="color:white; font-size: 20px; font-weight: 500; margin: 100px -220px 0 0">${a.text1}</p>
+            <p style="color:white;  font-weight: 500;">${a.text1}</p>
 
-            <div style="text-align:bottom;">
-                <p style="color:white; font-size: 20px; font-weight: 500; margin: 300px -220px 0 0">${a.text2}</p>
-                <button data-custom-open="order" class="button button__orange" style=" margin: 50px 0 0 0; padding: 5px 10px; font-weight: 500; margin-bottom: 10px; background-color: #FF7C00; border: transparent; border-radius: 5px; color: white;">Связаться с нами</button>
-            </div>
-           
         </div>
+
+        
+    </div>
+
+    <div style="display: flex; align-items: flex-end; height: 350px;">
+             <p style="color:white; font-weight: 500;">${a.text2}</p>
+    </div>
+    <div style="padding: 10px; height: 100px;">
+            <button data-custom-open="order" class="button button__orange" style="  font-weight: 500; background-color: #FF7C00; border: transparent; border-radius: 5px; color: white;">Связаться с нами</button>
     </div>
     `
 }).join(" ");
