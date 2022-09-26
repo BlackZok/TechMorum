@@ -18,9 +18,9 @@ export const generalFooter = [
     {
         title: 'Контакты',
         content: [
-            { text: 'ул. Калинина, 6Б, Королёв, Моск...' },
+            { text: '141070, Московская область, г. Королёв, ул. Калинина, офис 187' },
             { text: '+7 (915) 203-81-91' },
-            { text: 'techmorum@mail.ru' },
+            { text: 'info@techmorum.ru' },
         ],
     },
 
