@@ -29,3 +29,16 @@
 @media (min-width : 1400px) {
 
 }
+
+@media screen and (max-width: 600px) {
+    .header__secondtext {
+        display: none; 
+    }
+}
+
+@media screen and (max-width: 770px) {
+
+    .header__footer{
+        display: none; 
+    }
+}
