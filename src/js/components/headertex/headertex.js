@@ -8,9 +8,9 @@ const headerimg = document.querySelector('#header__img');
 let headertextHtml = generalHeaderText.map((a) => {
    return `
          ${a.title.map(t => `<p class="text text__big" style="font-size: 25px;"> ${t.text} </p>`).join(' ')}
-        <!-- <div>
+         <div>
             <button data-custom-open="order" class="button button__orange" style="padding: 0 25px; margin: 25px 0; color: white">${a.text}</button>
-         </div>-->
+         </div>
     `
 }).join(" ");
 
